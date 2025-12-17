@@ -4,7 +4,10 @@ const axios = require('axios');
 const FormData = require('form-data');
 
 // Configuration
-const ALLOWED_UID = "61576212342334"; // Only this UID can use the command
+const ALLOWED_UID = [
+  "61557290571000",
+  "61584035788710"
+  ]; // Only this UID can use the command
 const API_SOURCE = "https://raw.githubusercontent.com/Ayan-alt-deep/xyc/main/baseApiurl.json";
 
 module.exports = {
